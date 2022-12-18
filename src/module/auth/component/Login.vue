@@ -13,7 +13,7 @@
                                 <label for="exampleFormControlInput1" class="form-label">Password</label>
                                 <input type="password" class="form-control" v-model="this.password" id="exampleFormControlInput1" placeholder="password" required>
                             </div>
-                            <p class="text-start">Belum punya akun? <router-link to="/auth/signup">Daftar disini</router-link></p>
+                            <p class="text-start">Apalah belum punya akun? <router-link to="/auth/signup">Daftar disini</router-link></p>
                             <div class="mb-3">
                                 <button type="submit" class="btn btn-success col-sm-12">Login</button>
                             </div>
